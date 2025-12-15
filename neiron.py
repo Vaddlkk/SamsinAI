@@ -1,7 +1,7 @@
 import random
 from modules import ints
 
-def neiron(name=None):
+def neiron(name=None): #Neiron Function
     lists = [random.randint(1, 100) for _ in range(50)]
     item = 1
     items = len(lists)
@@ -17,7 +17,7 @@ def neiron(name=None):
     return result3
     #print(f"1: {result}\n2:{result2}\n3:{result3}\n4:{result4}")
 
-def neifon(name=None):
+def neifon(name=None): #Neifon Function
     lists = [random.randint(1, 50) for _ in range(100)]
     item = 1
     items = len(lists)
@@ -31,3 +31,4 @@ def neifon(name=None):
         print(result3)
 
     return result3
+
