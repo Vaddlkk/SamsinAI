@@ -1,7 +1,7 @@
 from neiron import neiron, neifon
 
 
-def interpreter():
+def interpreter(): #The work of neurons and writing to a variable
     r1 = neiron()
     r2 = neifon()
     r3 = neiron()
@@ -12,5 +12,6 @@ def interpreter():
     r8 = neifon()
     r9 = neiron()
     r10 = neifon()
-    result = f"0b{r1}{r2}{r3}{r4}{r5}{r6}{r7}{r8}{r9}{r10}"
+    result = f"0b{r1}{r2}{r3}{r4}{r5}{r6}{r7}{r8}{r9}{r10}" #Writing everything to the result variable
     return result
+
